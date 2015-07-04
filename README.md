@@ -1,5 +1,7 @@
 # Arithiga_Original
 
+Note: Game is still in development
+
 Arithiga is a variation of the game Galaga where you shoot a series of numbers and operators to get the given number at the top
 of the screen. The numbers used range from 1-9 and the given operators are +, -, *, /, and ^ (representing addition, subtraction,
 multiplcation, division, and the power symbol, respectively). You get 100 points for getting the number using 1 or 2 operators, 50 for using 3-5 operators, and 25 for any number
