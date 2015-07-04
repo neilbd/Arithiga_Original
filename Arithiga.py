@@ -20,7 +20,7 @@ class GalagaVariant: # tentative title
 
         pygame.mixer.init()
 
-        pygame.display.set_caption("To Be Titled") # Will have an official title later
+        pygame.display.set_caption("Arithiga")
 
         self.screen = pygame.display.set_mode((640,480),0,32)
 
@@ -63,15 +63,6 @@ class GalagaVariant: # tentative title
             self.screen.fill([0,0,0])
 
         self.screen.fill([0,0,0])
-
-        parameter_objects = []
-
-        parameter_count = 0
-
-        parameters = open('parameter_storage.json').read()
-
-        parameter_objects = (json.loads(parameters))
-        parameter_count += 1
 
         selection_font = pygame.font.SysFont('arial', 20)
 
@@ -423,7 +414,7 @@ class GalagaVariant: # tentative title
         # Creates objects for each number
         self.number_objects = []
 
-        for number in range(0,10):
+        for number in range(1,10):
 
             image = self.final_number_font.render(str(number), True, self.chosen_number_colors[number])
             new_number = Numbers(self.screen, image, number, False)
@@ -495,7 +486,7 @@ class GalagaVariant: # tentative title
 
         font = pygame.font.SysFont('impact', 40)
 
-        text = font.render("To Be Titled", True, (200, 50, 0))
+        text = font.render("Arithiga", True, (200, 50, 0))
 
         self.screen.blit(text, (250, 50))
 
@@ -559,7 +550,7 @@ class GalagaVariant: # tentative title
 
         self.screen.fill(self.background_color)
 
-        directions_font = pygame.font.SysFont('arial', 15)\
+        directions_font = pygame.font.SysFont('arial', 15)
         
         direction_text = directions_font.render("Move the Mouse to Move the Ship, Press it To Shoot A Laser", True, (200,50,0))
 
