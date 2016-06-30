@@ -15,3 +15,9 @@ number accumulated up to that point turns back to 0. Once all three lives are go
 This version of the game allows customization options for your the type of ship used, the font and color of the numbers, and
 the type and color of laser used, and more. The player controls the ship by moving the mouse to move and pressing the mouse to 
 shoot.
+
+The game is run by executing
+
+python Arithiga.py
+
+on the command line. The player moves with the left and right arrow keys and shoots with the space bar.
